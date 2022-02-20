@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-solution-with-grid-and-javascript-FgJB0i82y)
+- Live Site URL: [Live Site](https://duncan91-ops.github.io/intro-component-with-signup-form/)
 
 ## My process
 

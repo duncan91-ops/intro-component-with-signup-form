@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- styling -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <section class="card intro">
+        <header class="intro__header">
+          <h1 class="intro__heading">Learn to code by watching others</h1>
+          <p class="intro__text">
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </header>
+        <div class="signup">
+          <div class="signup__plan">
+            Try it free 7 days <span>then $20/mo. thereafter</span>
+          </div>
+          <form class="signup__form form" novalidate>
+            <input
+              type="text"
+              class="form__input"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+            />
+            <div class="error__message">First Name cannnot be empty</div>
+            <input
+              type="text"
+              class="form__input"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+            />
+            <div class="error__message">Last Name cannot be empty</div>
+
+            <input
+              type="email"
+              name="emailAddress"
+              id="emailAddress"
+              class="form__input"
+              placeholder="Email Address"
+            />
+            <div class="error__message">Looks like this is not an email</div>
+
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form__input"
+              placeholder="Password"
+            />
+            <div class="error__message">Password cannot be empty</div>
+
+            <button type="submit" class="btn form__btn">
+              Claim your free trial
+            </button>
+            <p class="form__text">
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
